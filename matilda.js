@@ -1080,7 +1080,7 @@ function sbis_consultant(options, state) {
    function() {
       var consultant = new sbis_consultant(
          {
-            site_root: 'https://pre-test-consultant.sbis.ru',
+            site_root: 'https://pre-test-consultant.sbis.ru/debug',
             hello_text: 'КЕЕЕЕЕЕЕЕЕЕЕЕЕк',
             channel_uuid: '1521cae4-675b-41c8-9098-d581e4a8cbe6',
             contract_name: 'Техническая поддержка',
