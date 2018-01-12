@@ -865,7 +865,7 @@ function sbis_consultant(options, state) {
       self.window.loader.main_div.appendChild(self.window.loader.indicator);
 
       self.window.loader.main_div.setAttribute('id', 'sbis_consultant_loader');
-      self.window.loader.main_div.setAttribute('style', 'display:none;')''
+      self.window.loader.main_div.setAttribute('style', 'display:none;');
       sbis_add_class(self.window.loader.main_div, 'sbis_hidden');
 
       self.window.frame.setAttribute('id', 'sbis_consultant_frame');
