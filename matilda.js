@@ -659,7 +659,7 @@ function sbis_consultant(options, state) {
       };
       self.window.frame = document.createElement('iframe');
       self.window.main_div = document.createElement('div');
-      self.options.frame_src = get_source_link('/ConsultantVDom.html?withoutLayout=true&channelUUID=');
+      self.options.frame_src = get_source_link('/debug/ConsultantVDom.html?withoutLayout=true&channelUUID=');
       self.window.overlay.setAttribute('id', 'sbis_consultant_overlay');
 
       // На мобилбных устройствах консультант разворачавается по размеру окна браузера.
@@ -1080,7 +1080,7 @@ function sbis_consultant(options, state) {
    function() {
       var consultant = new sbis_consultant(
          {
-            site_root: 'https://pre-test-consultant.sbis.ru/debug',
+            site_root: 'https://pre-test-consultant.sbis.ru',
             hello_text: 'КЕЕЕЕЕЕЕЕЕЕЕЕЕк',
             channel_uuid: '1521cae4-675b-41c8-9098-d581e4a8cbe6',
             contract_name: 'Техническая поддержка',
